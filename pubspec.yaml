@@ -1,0 +1,73 @@
+name: e_commerce_customer_app_new
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  smooth_page_indicator: ^1.2.1
+  
+  get: ^4.6.6
+  google_fonts: ^6.3.1
+  http: ^1.5.0
+  firebase_core: ^2.31.0
+  firebase_auth: ^4.16.0
+  url_launcher: ^6.3.2
+  intl: ^0.20.2
+  connectivity_plus: ^7.0.0
+  get_storage: ^2.1.1
+  logger: ^2.6.1
+  iconsax: ^0.0.8
+  flutter_native_splash: ^2.4.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo/
+    - assets/images/
+    - assets/icons/brands/
+    - assets/images/profile/
+    - assets/images/dashboard/
+    - assets/images/splash_images/
+    - assets/images/welcome_images/
+    - assets/images/forget_password/
+    - assets/images/on_boarding_images/
+    - assets/images/animations/
+    - assets/images/banners/
+    - assets/icons/payment_methods/
+    - assets/images/products/
+    - assets/images/brands/
+    - assets/icons/categories/
+    - assets/icons/payment_methods/paypal.png
+
+  #fonts:
+    #- family: Montserrat
+      #fonts:
+        #- asset: assets/fonts/Montserrat-Regular.ttf
+        #- asset: assets/fonts/Montserrat-Bold.ttf
+         # weight: 700
+
+flutter_native_splash: 
+  color: "#ffffff"
+  image: assets/logo/t-store-splash-logo-black.png
+  image_dark: assets/logo/t-store-splash-logo-white.png
+
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets/logo/t-store-splash-logo-black.png
+    image_dark: assets/logo/t-store-splash-logo-white.png
+
+  web: false
