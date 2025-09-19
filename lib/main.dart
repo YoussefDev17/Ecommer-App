@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'utils/Theme/theme.dart';
 import 'features/authentication/screens/onBordingScreen/onBording.dart';
+import 'features/authentication/screens/LoginScreen/Login.dart';
 
 void main() {
   runApp(const App());
@@ -17,6 +18,7 @@ class App extends StatelessWidget {
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
       home: const OnBordingScreen(),
+      //home: const Login(),
     );
   }
 }
