@@ -3,8 +3,8 @@ import 'package:e_commerce_customer_app_new/utils/helpers/exports.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/colors.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/text_strings.dart';
 
-class FormDivider extends StatelessWidget {
-  const FormDivider({super.key, required this.Dividertext});
+class TFormDivider extends StatelessWidget {
+  const TFormDivider({super.key, required this.Dividertext});
   final String Dividertext;
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class FormDivider extends StatelessWidget {
             indent: 60,
           ),
         ),
-        Text(TTexts.otpFooter, style: Theme.of(context).textTheme.labelMedium),
+        Text(TTexts.tOR, style: Theme.of(context).textTheme.labelMedium),
         Flexible(
           child: Divider(
             color: isDark ? TColors.darkGrey : TColors.grey,

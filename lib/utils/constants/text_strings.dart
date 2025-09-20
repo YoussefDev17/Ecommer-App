@@ -24,6 +24,10 @@ class TTexts {
   static const String tContinue = "Continue";
   static const String tPassword = "Password";
   static const String tFullName = "Full Name";
+  static const String tFirstName = "First Name";
+  static const String tLastName = "Last Name";
+  static const String tUserName = "User Name";
+
   static const String tGetStarted = "Get Started";
   static const String tForgetPassword = "Forget Password?";
   static const String homeAppbarSubTitle = "Coding With T";
@@ -85,6 +89,9 @@ class TTexts {
   static const String tSignUpSubTitle =
       "Create your profile to start your Journey.";
   static const String tAlreadyHaveAnAccount = "Already have an Account";
+  static const String IagreeTo = "I agree to";
+  static const String tPrivacyPolicy = "Privacy Policy";
+  static const String termsOfUse = 'Terms of Use';
 
   // -- Verify Email Screen Text
   static const String confirmEmail = "Verify your email address!";

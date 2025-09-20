@@ -2,6 +2,8 @@ import 'package:e_commerce_customer_app_new/utils/constants/sizes.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:get/get.dart';
+import 'package:e_commerce_customer_app_new/features/authentication/screens/SignUpScreen/SignUp.dart';
 
 class LoginForm extends StatelessWidget {
   const LoginForm({super.key});
@@ -56,7 +58,9 @@ class LoginForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.to(SignUp());
+              },
               child: const Text(TTexts.createAccount),
             ),
           ),
