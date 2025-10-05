@@ -193,4 +193,10 @@ class TTexts {
   // -- Dashboard 1
   static const String popularProducts = "Popular Products";
   static const String homeAppbarTitle = "Good day for shopping";
+
+  // Navigation Menu
+  static const String homeBottomBar = "Home";
+  static const String storeBottomBar = "Store";
+  static const String wishList = "WishList";
+  static const String profileBottomBar = "Profile";
 }
