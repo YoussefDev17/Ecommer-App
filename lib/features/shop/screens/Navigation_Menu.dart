@@ -8,7 +8,7 @@ import 'package:e_commerce_customer_app_new/features/shop/Controllers/Navigation
 import 'package:e_commerce_customer_app_new/utils/constants/colors.dart';
 
 class NavigationMenu extends StatelessWidget {
-  NavigationMenu({super.key});
+  const NavigationMenu({super.key});
 
   @override
   Widget build(BuildContext context) {

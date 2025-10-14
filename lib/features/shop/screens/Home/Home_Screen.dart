@@ -54,6 +54,8 @@ class HomeScreen extends StatelessWidget {
                       ],
                     ),
                   ),
+
+                  SizedBox(height: TSizes.spaceBtwSections),
                 ],
               ),
             ),
@@ -70,6 +72,11 @@ class HomeScreen extends StatelessWidget {
                     ],
                   ),
                   SizedBox(height: TSizes.spaceBtwSections),
+                  TsectionHeading(
+                    title: "Popular Product",
+                    showActionButton: true,
+                  ),
+                  SizedBox(height: TSizes.spaceBtwItems),
                   TgridLayout(
                     itemBuilder:
                         (_, int index) =>

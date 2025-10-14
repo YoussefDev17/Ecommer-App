@@ -17,9 +17,7 @@ class TsectionHeading extends StatelessWidget {
   });
   @override
   Widget build(BuildContext context) {
-    return /* Padding(
-      padding: EdgeInsets.all(TSizes.defaultSpace),
-      child: */ Row(
+    return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(
@@ -30,11 +28,9 @@ class TsectionHeading extends StatelessWidget {
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
         ),
-
         if (showActionButton)
           TextButton(onPressed: onPressed, child: Text(buttonTitle)),
       ],
-      //),
     );
   }
 }

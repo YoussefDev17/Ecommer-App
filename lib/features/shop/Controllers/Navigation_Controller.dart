@@ -1,9 +1,9 @@
 import 'package:e_commerce_customer_app_new/features/shop/screens/Home/Home_Screen.dart';
 import 'package:flutter/material.dart';
 //import 'package:e_commerce_customer_app_new/features/shop/screens/Home_Screen.dart';
-import 'package:e_commerce_customer_app_new/features/shop/screens/Shop_Screen.dart';
-import 'package:e_commerce_customer_app_new/features/shop/screens/whishList_Screen.dart';
-import 'package:e_commerce_customer_app_new/features/presonalization/screens/User_Screen.dart';
+import 'package:e_commerce_customer_app_new/features/shop/screens/Shop/Shop_Screen.dart';
+import 'package:e_commerce_customer_app_new/features/shop/screens/WishList/whishList_Screen.dart';
+import 'package:e_commerce_customer_app_new/features/presonalization/screens/AccountSettingScreen.dart';
 import 'package:get/get.dart';
 
 class NavigationController extends GetxController {
@@ -11,9 +11,9 @@ class NavigationController extends GetxController {
 
   final screens = [
     const HomeScreen(),
-    const ShopScreen(),
+    const StoreScreen(),
     const WishListScreen(),
-    const UserScreen(),
+    const AccountSettingScreen(),
   ];
 
   void changeIndex(int index) {

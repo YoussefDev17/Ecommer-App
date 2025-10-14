@@ -199,4 +199,7 @@ class TTexts {
   static const String storeBottomBar = "Store";
   static const String wishList = "WishList";
   static const String profileBottomBar = "Profile";
+
+  //Shop Screen
+  static const String ShopAppBar = "Store";
 }

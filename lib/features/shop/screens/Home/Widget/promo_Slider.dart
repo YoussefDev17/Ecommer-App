@@ -3,7 +3,6 @@ import 'package:e_commerce_customer_app_new/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/Images/T_Rounded_Image.dart';
-import 'package:e_commerce_customer_app_new/utils/constants/image_strings.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/sizes.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/Custom_Shape/Container/Circular_Container.dart';
 import 'package:get/get.dart';

@@ -12,7 +12,7 @@ class TsearchContainer extends StatelessWidget {
   final bool showBackground, showBorder;
   final VoidCallback? OnTap;
 
-  TsearchContainer({
+  const TsearchContainer({
     super.key,
     this.Title = "Search Bar",
     this.icon = Iconsax.search_normal,

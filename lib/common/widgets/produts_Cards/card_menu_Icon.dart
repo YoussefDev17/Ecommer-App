@@ -1,36 +1,45 @@
 import 'package:e_commerce_customer_app_new/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:iconsax/iconsax.dart';
 
-class TcardCounterIcon extends StatelessWidget {
+class TcardIcounCounter extends StatelessWidget {
+  const TcardIcounCounter({
+    super.key,
+    this.iconColor = TColors.white,
+    required this.onPressed,
+  });
   final Color? iconColor;
   final VoidCallback onPressed;
-  const TcardCounterIcon({
-    super.key,
-    required this.onPressed,
-    required this.iconColor,
-  });
 
   @override
   Widget build(BuildContext context) {
-    return Positioned(
-      right: 0,
-      child: Container(
-        width: 18,
-        height: 18,
-        decoration: BoxDecoration(
-          color: TColors.black.withOpacity(0.5),
-          borderRadius: BorderRadius.circular(100),
+    return Stack(
+      children: [
+        IconButton(
+          onPressed: () {},
+          icon: const Icon(Iconsax.shopping_bag, color: Colors.black),
         ),
-        child: Center(
-          child: Text(
-            '2',
-            style: Theme.of(context).textTheme.labelLarge!.apply(
-              color: TColors.white,
-              fontSizeFactor: 0.8,
+        Positioned(
+          right: 0,
+          child: Container(
+            width: 18,
+            height: 18,
+            decoration: BoxDecoration(
+              color: TColors.black.withOpacity(0.8),
+              borderRadius: BorderRadius.circular(100),
+            ),
+            child: Center(
+              child: Text(
+                '2',
+                style: Theme.of(context).textTheme.labelLarge!.apply(
+                  color: TColors.white,
+                  fontSizeFactor: 0.8,
+                ),
+              ),
             ),
           ),
         ),
-      ),
+      ],
     );
   }
 }

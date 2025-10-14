@@ -3,7 +3,6 @@ import 'package:e_commerce_customer_app_new/common/widgets/produts_Cards/card_me
 import 'package:e_commerce_customer_app_new/utils/constants/colors.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
-import 'package:iconsax/iconsax.dart';
 
 class Thomeappbar extends StatelessWidget {
   const Thomeappbar({super.key});
@@ -29,7 +28,9 @@ class Thomeappbar extends StatelessWidget {
       ),
 
       actions: [
-        Stack(
+        TcardIcounCounter(onPressed: () {}, iconColor: TColors.white),
+
+        /* Stack(
           children: [
             IconButton(
               onPressed: () {},
@@ -38,7 +39,7 @@ class Thomeappbar extends StatelessWidget {
 
             TcardCounterIcon(onPressed: () {}, iconColor: TColors.white),
           ],
-        ),
+        ), */
       ],
     );
   }

@@ -17,11 +17,11 @@ class onBording_NextButton extends StatelessWidget {
       bottom: TDeviceUtils.getBottomNavigationBarHeight(),
       child: ElevatedButton(
         onPressed: () => Onboardingcontroller.instance.nextButtonClick(),
-        child: Icon(Iconsax.arrow_right_3),
         style: ElevatedButton.styleFrom(
           shape: const CircleBorder(),
           backgroundColor: dark ? TColors.primary : TColors.black,
         ),
+        child: Icon(Iconsax.arrow_right_3),
       ),
     );
   }
