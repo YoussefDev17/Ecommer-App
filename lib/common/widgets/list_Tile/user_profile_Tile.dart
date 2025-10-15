@@ -1,5 +1,5 @@
 import 'package:e_commerce_customer_app_new/common/widgets/Images/T_Circular_Image.dart';
-import 'package:e_commerce_customer_app_new/features/presonalization/screens/ProfileScreen.dart';
+import 'package:e_commerce_customer_app_new/features/presonalization/screens/profile/ProfileScreen.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/colors.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/image_strings.dart';
 import 'package:flutter/material.dart';

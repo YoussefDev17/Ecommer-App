@@ -9,11 +9,13 @@ import 'package:e_commerce_customer_app_new/features/shop/screens/Home/Widget/Ho
 //import 'package:e_commerce_customer_app_new/features/shop/screens/Widgets/Horizontal_ListViewCategory.dart';
 import 'package:e_commerce_customer_app_new/features/shop/screens/Home/Widget/ThomeAppBar.dart';
 import 'package:e_commerce_customer_app_new/features/shop/screens/Home/Widget/promo_Slider.dart';
+import 'package:e_commerce_customer_app_new/features/shop/screens/Product/ProductDetail.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/colors.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/image_strings.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/sizes.dart';
 
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 final List<String> imgList = [
   "assets/images/banners/promo-banner-1.png",
@@ -86,7 +88,7 @@ class HomeScreen extends StatelessWidget {
                           title: "Green Like Sport",
                           subTitle: "Nike",
                           price: "12.00",
-                          onTap: () => {},
+                          onTap: () => {Get.to(ProductdetailScreen())},
                           onFavoritePressed: () => {},
                         ),
                     itemCount: 4,

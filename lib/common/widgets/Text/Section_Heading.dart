@@ -1,4 +1,3 @@
-//import 'package:e_commerce_customer_app_new/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
 
 class TsectionHeading extends StatelessWidget {
