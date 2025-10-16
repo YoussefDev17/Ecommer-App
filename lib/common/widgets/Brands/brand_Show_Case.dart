@@ -1,5 +1,5 @@
 import 'package:e_commerce_customer_app_new/common/widgets/Custom_Shape/Container/rounded_Container.dart';
-import 'package:e_commerce_customer_app_new/common/widgets/produts_Cards/productCard_Horizontal.dart';
+import 'package:e_commerce_customer_app_new/common/widgets/Product/Cart/productCard_Horizontal.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/colors.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/image_strings.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/sizes.dart';

@@ -5,9 +5,12 @@ import 'package:e_commerce_customer_app_new/common/widgets/Text/Section_Heading.
 import 'package:e_commerce_customer_app_new/common/widgets/appBar/appBar.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/list_Tile/setting_menu_Tile.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/list_Tile/user_profile_Tile.dart';
+import 'package:e_commerce_customer_app_new/features/presonalization/screens/Address/AdressScreen.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/colors.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:iconsax/iconsax.dart';
 
 class AccountSettingScreen extends StatelessWidget {
@@ -46,9 +49,9 @@ class AccountSettingScreen extends StatelessWidget {
 
                   TsettingMenuTile(
                     icon: Iconsax.safe_home,
-                    Title: 'My Aaddress',
+                    Title: 'My Address',
                     SubTitle: 'Set Shopping Delivrey Address',
-                    onTap: () {},
+                    onTap: () => {Get.to(AddressScreen())},
                   ),
                   TsettingMenuTile(
                     icon: Iconsax.shopping_cart,

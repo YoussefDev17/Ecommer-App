@@ -1,7 +1,7 @@
 import 'package:e_commerce_customer_app_new/common/widgets/Brands/brand_Show_Case.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/Layouts/grid_Layout.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/Text/Section_Heading.dart';
-import 'package:e_commerce_customer_app_new/common/widgets/produts_Cards/productCard_Vertical.dart';
+import 'package:e_commerce_customer_app_new/common/widgets/Product/Cart/productCard_Vertical.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/image_strings.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';

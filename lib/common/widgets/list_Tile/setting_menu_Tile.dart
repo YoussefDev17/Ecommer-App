@@ -9,13 +9,13 @@ class TsettingMenuTile extends StatelessWidget {
     required this.Title,
     required this.SubTitle,
     this.trailing,
-    this.onTap,
+    required this.onTap,
   });
 
   final IconData icon;
   final String Title, SubTitle;
   final Widget? trailing;
-  final VoidCallback? onTap;
+  final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {

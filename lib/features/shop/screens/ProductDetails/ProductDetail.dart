@@ -1,10 +1,11 @@
 import 'package:e_commerce_customer_app_new/common/widgets/Text/Section_Heading.dart';
 import 'package:e_commerce_customer_app_new/features/shop/Controllers/ImageController.dart';
-import 'package:e_commerce_customer_app_new/features/shop/screens/Product/Widget/BottomAddToCartWidget.dart';
-import 'package:e_commerce_customer_app_new/features/shop/screens/Product/Widget/ProductAttributes.dart';
-import 'package:e_commerce_customer_app_new/features/shop/screens/Product/Widget/ProductMetaData.dart';
-import 'package:e_commerce_customer_app_new/features/shop/screens/Product/Widget/RatingShareWidget.dart';
-import 'package:e_commerce_customer_app_new/features/shop/screens/Product/Widget/product_Detail_Image_Slider.dart';
+import 'package:e_commerce_customer_app_new/features/shop/screens/ProductReviews/RatingAndReviewScreen.dart';
+import 'package:e_commerce_customer_app_new/features/shop/screens/ProductDetails/Widget/BottomAddToCartWidget.dart';
+import 'package:e_commerce_customer_app_new/features/shop/screens/ProductDetails/Widget/ProductAttributes.dart';
+import 'package:e_commerce_customer_app_new/features/shop/screens/ProductDetails/Widget/ProductMetaData.dart';
+import 'package:e_commerce_customer_app_new/features/shop/screens/ProductDetails/Widget/RatingShareWidget.dart';
+import 'package:e_commerce_customer_app_new/features/shop/screens/ProductDetails/Widget/product_Detail_Image_Slider.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/sizes.dart';
 import 'package:e_commerce_customer_app_new/utils/helpers/exports.dart';
 import 'package:flutter/material.dart';
@@ -74,10 +75,10 @@ class ProductdetailScreen extends StatelessWidget {
                     children: [
                       TsectionHeading(
                         title: 'Review(199)',
-                        onPressed: () => {},
+                        onPressed: () => {Get.to(RatingAndReviewScreen())},
                       ),
                       IconButton(
-                        onPressed: () => {},
+                        onPressed: () => {Get.to(RatingAndReviewScreen())},
                         icon: Icon(Iconsax.arrow_right_3),
                       ),
                     ],

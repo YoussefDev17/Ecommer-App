@@ -5,8 +5,8 @@ import 'package:e_commerce_customer_app_new/common/widgets/Text/Section_Heading.
 import 'package:e_commerce_customer_app_new/common/widgets/appBar/appBar.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/appBar/tabbar.dart';
 //import 'package:e_commerce_customer_app_new/common/widgets/produts_Cards/brand_Show_Case.dart';
-import 'package:e_commerce_customer_app_new/common/widgets/produts_Cards/card_menu_Icon.dart';
-import 'package:e_commerce_customer_app_new/common/widgets/produts_Cards/productCard_Horizontal.dart';
+import 'package:e_commerce_customer_app_new/common/widgets/Product/Cart/card_menu_Icon.dart';
+import 'package:e_commerce_customer_app_new/common/widgets/Product/Cart/productCard_Horizontal.dart';
 import 'package:e_commerce_customer_app_new/features/shop/screens/Shop/Widgets/CategoryTab.dart';
 //import 'package:e_commerce_customer_app_new/common/widgets/produts_Cards/productCard_Horizontal.dart';
 //import 'package:e_commerce_customer_app_new/features/shop/screens/Shop/Widgets/TshopAppBar.dart';

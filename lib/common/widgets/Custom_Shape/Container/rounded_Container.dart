@@ -32,7 +32,7 @@ class TRoundedContainer extends StatelessWidget {
   final double? width;
   final double? height;
   final double radius;
-  final EdgeInsetsGeometry padding;
+  final EdgeInsetsGeometry? padding;
   final EdgeInsets? margin;
   final Widget? child;
   final Color backgroundColor;
