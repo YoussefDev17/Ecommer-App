@@ -6,6 +6,7 @@ import 'package:e_commerce_customer_app_new/common/widgets/appBar/appBar.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/list_Tile/setting_menu_Tile.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/list_Tile/user_profile_Tile.dart';
 import 'package:e_commerce_customer_app_new/features/presonalization/screens/Address/AdressScreen.dart';
+import 'package:e_commerce_customer_app_new/features/shop/screens/Order/OrderScreen.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/colors.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
@@ -63,7 +64,9 @@ class AccountSettingScreen extends StatelessWidget {
                     icon: Iconsax.bag_tick,
                     Title: 'My Orders',
                     SubTitle: 'In Progress And Complete Order',
-                    onTap: () {},
+                    onTap: () {
+                      Get.to(orderScreen());
+                    },
                   ),
                   TsettingMenuTile(
                     icon: Iconsax.shopping_cart,
@@ -153,27 +156,6 @@ class AccountSettingScreen extends StatelessWidget {
           ],
         ),
       ),
-    );
-  }
-}
-
-class TitleAndSubTitle extends StatelessWidget {
-  final String Title;
-  final String SubTitle;
-  const TitleAndSubTitle({
-    super.key,
-    required this.Title,
-    required this.SubTitle,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.start,
-      children: [
-        Text(Title, style: Theme.of(context).textTheme.labelLarge),
-        Text(SubTitle, style: Theme.of(context).textTheme.labelSmall),
-      ],
     );
   }
 }

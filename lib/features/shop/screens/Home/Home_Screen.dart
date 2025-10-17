@@ -17,12 +17,6 @@ import 'package:e_commerce_customer_app_new/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-final List<String> imgList = [
-  "assets/images/banners/promo-banner-1.png",
-  "assets/images/banners/promo-banner-2.png",
-  "assets/images/banners/promo-banner-3.png",
-];
-
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 

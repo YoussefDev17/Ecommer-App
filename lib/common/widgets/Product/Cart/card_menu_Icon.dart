@@ -6,17 +6,17 @@ class TcardIcounCounter extends StatelessWidget {
   const TcardIcounCounter({
     super.key,
     this.iconColor = TColors.white,
-    required this.onPressed,
+    required this.OnPressed,
   });
   final Color? iconColor;
-  final VoidCallback onPressed;
+  final VoidCallback OnPressed;
 
   @override
   Widget build(BuildContext context) {
     return Stack(
       children: [
         IconButton(
-          onPressed: () {},
+          onPressed: OnPressed,
           icon: const Icon(Iconsax.shopping_bag, color: Colors.black),
         ),
         Positioned(

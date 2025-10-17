@@ -1,8 +1,10 @@
 import 'package:e_commerce_customer_app_new/common/widgets/appBar/appBar.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/Product/Cart/card_menu_Icon.dart';
+import 'package:e_commerce_customer_app_new/features/shop/screens/ProductCart/ProductCartScreen.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/colors.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class Thomeappbar extends StatelessWidget {
   const Thomeappbar({super.key});
@@ -28,7 +30,13 @@ class Thomeappbar extends StatelessWidget {
       ),
 
       actions: [
-        TcardIcounCounter(onPressed: () {}, iconColor: TColors.white),
+        TcardIcounCounter(
+          OnPressed: () {
+            // Navigate to the cart screen
+            Get.to(Productcartscreen());
+          },
+          iconColor: TColors.white,
+        ),
 
         /* Stack(
           children: [
