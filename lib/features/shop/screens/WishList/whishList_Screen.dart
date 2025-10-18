@@ -1,7 +1,7 @@
 import 'package:e_commerce_customer_app_new/common/widgets/Icons/t_circular_icon.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/Layouts/grid_Layout.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/appBar/appBar.dart';
-import 'package:e_commerce_customer_app_new/common/widgets/Product/Cart/productCard_Vertical.dart';
+import 'package:e_commerce_customer_app_new/common/widgets/Product/ProductCards/productCard_Vertical.dart';
 import 'package:e_commerce_customer_app_new/features/shop/screens/Home/Home_Screen.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/image_strings.dart';
 import 'package:flutter/material.dart';

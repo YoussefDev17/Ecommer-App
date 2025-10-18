@@ -1,5 +1,6 @@
+import 'package:e_commerce_customer_app_new/common/widgets/Brands/BrandCard.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/Custom_Shape/Container/rounded_Container.dart';
-import 'package:e_commerce_customer_app_new/common/widgets/Product/Cart/productCard_Horizontal.dart';
+import 'package:e_commerce_customer_app_new/common/widgets/Product/ProductCards/productCard_Horizontal.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/colors.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/image_strings.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/sizes.dart';
@@ -24,6 +25,7 @@ class TbrandShowCase extends StatelessWidget {
       child: Column(
         children: [
           TbrandCard(showBorder: false),
+
           Row(
             children:
                 Images.map(

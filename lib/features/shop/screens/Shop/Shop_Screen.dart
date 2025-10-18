@@ -1,20 +1,26 @@
 //import 'package:e_commerce_customer_app_new/common/widgets/Layouts/grid_Layout.dart';
+import 'package:e_commerce_customer_app_new/common/widgets/Brands/BrandCard.dart';
+
 import 'package:e_commerce_customer_app_new/common/widgets/Layouts/grid_Layout.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/SearchBar/Search_Bar.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/Text/Section_Heading.dart';
+
 import 'package:e_commerce_customer_app_new/common/widgets/appBar/appBar.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/appBar/tabbar.dart';
 //import 'package:e_commerce_customer_app_new/common/widgets/produts_Cards/brand_Show_Case.dart';
 import 'package:e_commerce_customer_app_new/common/widgets/Product/Cart/card_menu_Icon.dart';
-import 'package:e_commerce_customer_app_new/common/widgets/Product/Cart/productCard_Horizontal.dart';
+import 'package:e_commerce_customer_app_new/features/shop/screens/Brands/AllBrandsScreen.dart';
+
 import 'package:e_commerce_customer_app_new/features/shop/screens/Shop/Widgets/CategoryTab.dart';
-//import 'package:e_commerce_customer_app_new/common/widgets/produts_Cards/productCard_Horizontal.dart';
-//import 'package:e_commerce_customer_app_new/features/shop/screens/Shop/Widgets/TshopAppBar.dart';
+
 import 'package:e_commerce_customer_app_new/utils/constants/colors.dart';
+
 import 'package:e_commerce_customer_app_new/utils/constants/sizes.dart';
 import 'package:e_commerce_customer_app_new/utils/constants/text_strings.dart';
 import 'package:e_commerce_customer_app_new/utils/helpers/exports.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 //import 'package:iconsax/iconsax.dart';
 
 class StoreScreen extends StatelessWidget {
@@ -57,8 +63,9 @@ class StoreScreen extends StatelessWidget {
                       TsearchContainer(),
                       SizedBox(height: TSizes.spaceBtwSections),
                       TsectionHeading(
-                        title: "Popular Product",
+                        title: "Popular Brands",
                         showActionButton: true,
+                        onPressed: () => Get.to(Allbrandsscreen()),
                       ),
                       SizedBox(height: TSizes.spaceBtwItems),
 
